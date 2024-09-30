@@ -1,0 +1,13 @@
+image_topic: "/kitti_cam"
+onnx_path: "/home/nuc/catkin_ws/src/camera_3d_detector/model/smoke_dla34.onnx"
+engine_path: "/home/nuc/catkin_ws/src/camera_3d_detector/model/smoke_dla34.engine"
+camera:
+    camera_width: 1242
+    camera_height: 375
+
+    camera_matrix: [721.5377, 0.0,      609.5593,
+                0.0,     721.5377,  172.854,
+                0.0,     0.0,      1.0     ]
+
+    distort: [0.0, 0.0, 0.0, 0.0, 0.0]
+

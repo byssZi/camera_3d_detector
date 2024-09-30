@@ -1,0 +1,7 @@
+<launch>
+
+  <rosparam file="$(find camera_3d_detector)/cfg/params.yaml" command="load" />
+  <node pkg="camera_3d_detector" type="camera_3d_detector_node" name="smoke" output="screen">
+  </node>
+
+</launch>
